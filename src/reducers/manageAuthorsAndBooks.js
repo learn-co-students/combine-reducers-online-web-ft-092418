@@ -1,3 +1,4 @@
+import uuid from "uuid";
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({
@@ -7,7 +8,6 @@ const rootReducer = combineReducers({
 
 export default rootReducer;
 
-import uuid from "uuid";
  
 function authorsReducer(state = [], action) {
   let idx;
